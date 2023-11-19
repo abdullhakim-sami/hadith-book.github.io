@@ -1,4 +1,4 @@
-import{i as p,s as i,x as b,r as u,a as m,e as h}from"./index-2e1884ae.js";import"./chunk.KRP3ULQL-4d176e08.js";const f=p`
+import{i as p,s as i,x as b,r as u,a as m,e as h}from"./index-a053c9d9.js";import"./chunk.KRP3ULQL-7533f4d9.js";const f=p`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -18,7 +18,7 @@ import{i as p,s as i,x as b,r as u,a as m,e as h}from"./index-2e1884ae.js";impor
 <sl-button-group label="Alignment">
 
 
-<sl-button size="large" href="${u(".كتاب-الطهارة/باب-الوضوء/تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ")}"> .تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ</sl-button>
+<sl-button size="large" href="${u(".كتاب-الطهارة/باب-الوضوء/تَبْلُغُ-الحِلْيَةُ-مِنَ-المُؤْمِنِ،-حَيْثُ-يَبْلُغُ-الوَضُوءُ")}"> .تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ</sl-button>
 
 
 </sl-button-group>
@@ -27,4 +27,4 @@ import{i as p,s as i,x as b,r as u,a as m,e as h}from"./index-2e1884ae.js";impor
 
 
     `}};n.styles=[m,f];n=c([h("kitab-al-tahara-bab-al-wodo")],n);export{n as AppAbout};
-//# sourceMappingURL=bab-al-wodo-c3dc02f1.js.map
+//# sourceMappingURL=bab-al-wodo-0c7a9926.js.map
