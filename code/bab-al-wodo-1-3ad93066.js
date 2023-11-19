@@ -1,4 +1,4 @@
-import{i,s as n,x as h,a as m,e as o}from"./index-ec205c2f.js";import"./chunk.KRP3ULQL-44472333.js";const d=i`
+import{i,s as n,x as h,a as m,e as o}from"./index-2e1884ae.js";import"./chunk.KRP3ULQL-4d176e08.js";const d=i`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -15,7 +15,7 @@ import{i,s as n,x as h,a as m,e as o}from"./index-ec205c2f.js";import"./chunk.KR
 
 <h1 > باب الوضوء</h1>
 
-<h4>
+<h1>
 كُنْتُ خَلْفَ أبِي هُرَيْرَةَ وهو يَتَوَضَّأُ لِلصَّلاةِ، فَكانَ يَمُدُّ يَدَهُ حتَّى تَبْلُغَ إبْطَهُ فَقُلتُ له: يا أبا هُرَيْرَةَ ما هذا الوُضُوءُ؟ فقالَ: يا بَنِي فَرُّوخَ أنتُمْ هاهُنا؟ لو عَلِمْتُ أنَّكُمْ هاهُنا ما تَوَضَّأْتُ هذا الوُضُوءَ، سَمِعْتُ خَلِيلِي صَلَّى اللَّهُ عليه وسلَّمَ يقولُ: تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ.
 الراوي : أبو هريرة | المحدث : مسلم | المصدر : صحيح مسلم
 الصفحة أو الرقم: 250 | خلاصة حكم المحدث : [صحيح]
@@ -31,10 +31,10 @@ import{i,s as n,x as h,a as m,e as o}from"./index-ec205c2f.js";import"./chunk.KR
 
 وفيه: أنَّه يَنبغي للعالِمِ ألَّا يَفعَلَ عندَ العَوامِّ ما لا يَعرِفُونَ، إذا خافَ عليهم أن يَفهَموا منه غيرَ المُرادِ.
 
-</h4>
+</h1>
 </main>
 
 
 
     `}};p.styles=[m,d];p=c([o("kitab-al-tahara-bab-al-wodo-1")],p);export{p as AppAbout};
-//# sourceMappingURL=bab-al-wodo-1-1ad5c86a.js.map
+//# sourceMappingURL=bab-al-wodo-1-3ad93066.js.map

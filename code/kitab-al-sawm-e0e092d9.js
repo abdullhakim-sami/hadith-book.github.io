@@ -1,4 +1,4 @@
-import{i as n,s as m,x as o,a as f,e as h}from"./index-ec205c2f.js";import"./chunk.KRP3ULQL-44472333.js";const v=n`
+import{i as n,s as m,x as o,a as f,e as h}from"./index-2e1884ae.js";import"./chunk.KRP3ULQL-4d176e08.js";const v=n`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -20,4 +20,4 @@ import{i as n,s as m,x as o,a as f,e as h}from"./index-ec205c2f.js";import"./chu
 
 
     `}};i.styles=[f,v];i=w([h("kitab-al-sawm")],i);export{i as AppAbout};
-//# sourceMappingURL=kitab-al-sawm-3656d7a0.js.map
+//# sourceMappingURL=kitab-al-sawm-e0e092d9.js.map
