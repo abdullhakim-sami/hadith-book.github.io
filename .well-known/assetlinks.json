@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.stupendous_choux_bf0661.twa",
+        "sha256_cert_fingerprints": ["85:FF:43:A0:68:3F:43:F8:87:08:64:B5:4E:F5:1D:CA:61:46:2C:97:9F:63:FD:1D:E9:33:C9:34:22:D6:55:7F"]
+      }
+    }]
