@@ -1,4 +1,4 @@
-import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-c1bd427e.js";import"./chunk.KRP3ULQL-00936bbc.js";const A=x`
+import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-f7e96322.js";import"./chunk.KRP3ULQL-8f2dcaf2.js";const A=x`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -6,10 +6,10 @@ import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H a
   }
 
   main {
-    margin-left: 25px;
+    margin-right: 25px;
   }
 `;var D=p`
-  ${f}
+  ${h}
 
   .breadcrumb {
     display: flex;
@@ -24,8 +24,8 @@ import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H a
       <slot name="separator" hidden aria-hidden="true">
         <sl-icon name=${this.localize.dir()==="rtl"?"chevron-left":"chevron-right"} library="system"></sl-icon>
       </slot>
-    `}};i.styles=D;a([h("slot")],i.prototype,"defaultSlot",2);a([h('slot[name="separator"]')],i.prototype,"separatorSlot",2);a([b()],i.prototype,"label",2);i=a([_("sl-breadcrumb")],i);var E=p`
-  ${f}
+    `}};i.styles=D;a([f("slot")],i.prototype,"defaultSlot",2);a([f('slot[name="separator"]')],i.prototype,"separatorSlot",2);a([b()],i.prototype,"label",2);i=a([_("sl-breadcrumb")],i);var E=p`
+  ${h}
 
   :host {
     display: inline-flex;
@@ -178,4 +178,4 @@ import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H a
 
 
     `}};d.styles=[C,A];d=P([z("kitab-al-tahara-bab-al-wodo-1")],d);export{d as AppAbout};
-//# sourceMappingURL=bab-al-wodo-1-ee77a549.js.map
+//# sourceMappingURL=bab-al-wodo-1-b3ba9238.js.map
