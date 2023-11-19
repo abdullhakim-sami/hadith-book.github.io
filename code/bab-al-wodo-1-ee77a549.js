@@ -1,4 +1,4 @@
-import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-c5524a13.js";import"./chunk.KRP3ULQL-24a59ab3.js";const A=x`
+import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-c1bd427e.js";import"./chunk.KRP3ULQL-00936bbc.js";const A=x`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -156,7 +156,7 @@ import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H a
 
 <h1 > باب الوضوء</h1>
 
-<h1>
+<h2>
 كُنْتُ خَلْفَ أبِي هُرَيْرَةَ وهو يَتَوَضَّأُ لِلصَّلاةِ، فَكانَ يَمُدُّ يَدَهُ حتَّى تَبْلُغَ إبْطَهُ فَقُلتُ له: يا أبا هُرَيْرَةَ ما هذا الوُضُوءُ؟ فقالَ: يا بَنِي فَرُّوخَ أنتُمْ هاهُنا؟ لو عَلِمْتُ أنَّكُمْ هاهُنا ما تَوَضَّأْتُ هذا الوُضُوءَ، سَمِعْتُ خَلِيلِي صَلَّى اللَّهُ عليه وسلَّمَ يقولُ: تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ.
 الراوي : أبو هريرة | المحدث : مسلم | المصدر : صحيح مسلم
 الصفحة أو الرقم: 250 | خلاصة حكم المحدث : [صحيح]
@@ -172,10 +172,10 @@ import{i as x,b as p,c as f,_ as a,d as h,f as b,g as _,S as g,L as v,y as n,H a
 
 وفيه: أنَّه يَنبغي للعالِمِ ألَّا يَفعَلَ عندَ العَوامِّ ما لا يَعرِفُونَ، إذا خافَ عليهم أن يَفهَموا منه غيرَ المُرادِ.
 
-</h1>
+</h2>
 </main>
 
 
 
     `}};d.styles=[C,A];d=P([z("kitab-al-tahara-bab-al-wodo-1")],d);export{d as AppAbout};
-//# sourceMappingURL=bab-al-wodo-1-b8fcd739.js.map
+//# sourceMappingURL=bab-al-wodo-1-ee77a549.js.map

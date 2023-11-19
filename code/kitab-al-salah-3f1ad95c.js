@@ -1,4 +1,4 @@
-import{i as n,s as m,x as h,a as o,e as f}from"./index-c5524a13.js";import"./chunk.KRP3ULQL-24a59ab3.js";const v=n`
+import{i as n,s as m,x as h,a as o,e as f}from"./index-c1bd427e.js";import"./chunk.KRP3ULQL-00936bbc.js";const v=n`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -20,4 +20,4 @@ import{i as n,s as m,x as h,a as o,e as f}from"./index-c5524a13.js";import"./chu
 
 
     `}};l.styles=[o,v];l=x([f("kitab-al-salah")],l);export{l as AppAbout};
-//# sourceMappingURL=kitab-al-salah-fa4a65ee.js.map
+//# sourceMappingURL=kitab-al-salah-3f1ad95c.js.map

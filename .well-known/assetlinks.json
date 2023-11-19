@@ -2,7 +2,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "app.netlify.stupendous_choux_bf0661.twa",
-        "sha256_cert_fingerprints": ["85:FF:43:A0:68:3F:43:F8:87:08:64:B5:4E:F5:1D:CA:61:46:2C:97:9F:63:FD:1D:E9:33:C9:34:22:D6:55:7F"]
+        "package_name": "app.netlify.hadithbook.twa",
+        "sha256_cert_fingerprints": ["A8:65:AC:27:4A:BA:A3:58:1E:88:29:61:FF:D4:77:F0:EB:EE:50:5B:0C:B7:B3:0E:FB:CE:50:31:64:09:2A:C6"]
       }
     }]
