@@ -1,4 +1,4 @@
-import{i as n,s as m,x as h,a as o,e as v}from"./index-f7e96322.js";import"./chunk.KRP3ULQL-8f2dcaf2.js";const c=n`
+import{i as n,s as m,x as h,a as o,e as v}from"./index-37062998.js";import"./chunk.KRP3ULQL-75875260.js";const c=n`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -20,4 +20,4 @@ import{i as n,s as m,x as h,a as o,e as v}from"./index-f7e96322.js";import"./chu
 
 
     `}};i.styles=[o,c];i=x([v("kitab-al-akhlaq")],i);export{i as AppAbout};
-//# sourceMappingURL=kitab-al-akhlaq-575a8f9c.js.map
+//# sourceMappingURL=kitab-al-akhlaq-ccd107ab.js.map

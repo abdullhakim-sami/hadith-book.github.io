@@ -1,4 +1,4 @@
-import{i as n,s as o,x as m,a as v,e as c}from"./index-f7e96322.js";import"./chunk.KRP3ULQL-8f2dcaf2.js";const d=n`
+import{i as n,s as o,x as m,a as v,e as c}from"./index-37062998.js";import"./chunk.KRP3ULQL-75875260.js";const d=n`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -13,4 +13,4 @@ import{i as n,s as o,x as m,a as v,e as c}from"./index-f7e96322.js";import"./chu
 
 
     `}};i.styles=[v,d];i=u([c("app-about")],i);export{i as AppAbout};
-//# sourceMappingURL=app-about-7c025d30.js.map
+//# sourceMappingURL=app-about-d538be84.js.map
