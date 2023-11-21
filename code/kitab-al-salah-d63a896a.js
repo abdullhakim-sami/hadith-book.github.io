@@ -1,4 +1,4 @@
-import{i as n,s as h,x as o,r as b,a as m,e as f}from"./index-1b2219ca.js";const u=n`
+import{i as n,s as h,x as o,r as b,a as m,e as f}from"./index-765334bc.js";const u=n`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -23,4 +23,4 @@ import{i as n,s as h,x as o,r as b,a as m,e as f}from"./index-1b2219ca.js";const
 
 
     `}};p.styles=[m,u];p=d([f("kitab-al-salah")],p);export{p as AppAbout};
-//# sourceMappingURL=kitab-al-salah-e7b45dbb.js.map
+//# sourceMappingURL=kitab-al-salah-d63a896a.js.map
