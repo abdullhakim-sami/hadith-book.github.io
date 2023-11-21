@@ -1,4 +1,4 @@
-import{s as n,x as o,r as f,a as h,e as u}from"./index-cff8baa4.js";var v=Object.defineProperty,_=Object.getOwnPropertyDescriptor,i=(b,a,s,r)=>{for(var e=r>1?void 0:r?_(a,s):a,t=b.length-1,l;t>=0;t--)(l=b[t])&&(e=(r?l(a,s,e):l(e))||e);return r&&e&&v(a,s,e),e};let p=class extends n{render(){return o`
+import{s as n,x as o,r as f,a as h,e as u}from"./index-1b2219ca.js";var v=Object.defineProperty,_=Object.getOwnPropertyDescriptor,i=(b,a,s,r)=>{for(var e=r>1?void 0:r?_(a,s):a,t=b.length-1,l;t>=0;t--)(l=b[t])&&(e=(r?l(a,s,e):l(e))||e);return r&&e&&v(a,s,e),e};let p=class extends n{render(){return o`
       <app-header ?enableBack="${!0}"></app-header>
 
 <main>
@@ -13,4 +13,4 @@ import{s as n,x as o,r as f,a as h,e as u}from"./index-cff8baa4.js";var v=Object
 
 
     `}};p.styles=[h];p=i([u("bab-salat-al-fajr")],p);export{p as AppAbout};
-//# sourceMappingURL=bab-salat-al-fajr-250be38f.js.map
+//# sourceMappingURL=bab-salat-al-fajr-98e7a683.js.map

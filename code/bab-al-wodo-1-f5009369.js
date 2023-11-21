@@ -1,4 +1,4 @@
-import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-cff8baa4.js";const A=x`
+import{i as g,b as p,c as h,_ as a,d as f,f as b,g as _,S as v,L as x,y as n,H as y,o as S,l as u,s as w,x as $,a as C,e as z}from"./index-1b2219ca.js";import"./chunk.KRP3ULQL-f5588334.js";const A=g`
   @media(min-width: 1000px) {
     sl-card {
       max-width: 70vw;
@@ -16,7 +16,7 @@ import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H a
     align-items: center;
     flex-wrap: wrap;
   }
-`,i=class extends g{constructor(){super(...arguments),this.localize=new v(this),this.separatorDir=this.localize.dir(),this.label=""}getSeparator(){const e=this.separatorSlot.assignedElements({flatten:!0})[0].cloneNode(!0);return[e,...e.querySelectorAll("[id]")].forEach(s=>s.removeAttribute("id")),e.setAttribute("data-default",""),e.slot="separator",e}handleSlotChange(){const r=[...this.defaultSlot.assignedElements({flatten:!0})].filter(e=>e.tagName.toLowerCase()==="sl-breadcrumb-item");r.forEach((e,s)=>{const t=e.querySelector('[slot="separator"]');t===null?e.append(this.getSeparator()):t.hasAttribute("data-default")&&t.replaceWith(this.getSeparator()),s===r.length-1?e.setAttribute("aria-current","page"):e.removeAttribute("aria-current")})}render(){return this.separatorDir!==this.localize.dir()&&(this.separatorDir=this.localize.dir(),this.updateComplete.then(()=>this.handleSlotChange())),n`
+`,i=class extends v{constructor(){super(...arguments),this.localize=new x(this),this.separatorDir=this.localize.dir(),this.label=""}getSeparator(){const e=this.separatorSlot.assignedElements({flatten:!0})[0].cloneNode(!0);return[e,...e.querySelectorAll("[id]")].forEach(s=>s.removeAttribute("id")),e.setAttribute("data-default",""),e.slot="separator",e}handleSlotChange(){const r=[...this.defaultSlot.assignedElements({flatten:!0})].filter(e=>e.tagName.toLowerCase()==="sl-breadcrumb-item");r.forEach((e,s)=>{const t=e.querySelector('[slot="separator"]');t===null?e.append(this.getSeparator()):t.hasAttribute("data-default")&&t.replaceWith(this.getSeparator()),s===r.length-1?e.setAttribute("aria-current","page"):e.removeAttribute("aria-current")})}render(){return this.separatorDir!==this.localize.dir()&&(this.separatorDir=this.localize.dir(),this.updateComplete.then(()=>this.handleSlotChange())),n`
       <nav part="base" class="breadcrumb" aria-label=${this.label}>
         <slot @slotchange=${this.handleSlotChange}></slot>
       </nav>
@@ -108,7 +108,7 @@ import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H a
     margin: 0 var(--sl-spacing-x-small);
     user-select: none;
   }
-`,o=class extends g{constructor(){super(...arguments),this.hasSlotController=new y(this,"prefix","suffix"),this.rel="noreferrer noopener"}render(){const r=!!this.href;return n`
+`,o=class extends v{constructor(){super(...arguments),this.hasSlotController=new y(this,"prefix","suffix"),this.rel="noreferrer noopener"}render(){const r=!!this.href;return n`
       <div
         part="base"
         class=${S({"breadcrumb-item":!0,"breadcrumb-item--has-prefix":this.hasSlotController.test("prefix"),"breadcrumb-item--has-suffix":this.hasSlotController.test("suffix")})}
@@ -156,13 +156,21 @@ import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H a
 
 <h1 > باب الوضوء</h1>
 
+<div class="custom-br"></div>
+<div class="custom-br"></div>
 <h2>
 كُنْتُ خَلْفَ أبِي هُرَيْرَةَ وهو يَتَوَضَّأُ لِلصَّلاةِ، فَكانَ يَمُدُّ يَدَهُ حتَّى تَبْلُغَ إبْطَهُ فَقُلتُ له: يا أبا هُرَيْرَةَ ما هذا الوُضُوءُ؟ فقالَ: يا بَنِي فَرُّوخَ أنتُمْ هاهُنا؟ لو عَلِمْتُ أنَّكُمْ هاهُنا ما تَوَضَّأْتُ هذا الوُضُوءَ، سَمِعْتُ خَلِيلِي صَلَّى اللَّهُ عليه وسلَّمَ يقولُ: تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ.
 الراوي : أبو هريرة | المحدث : مسلم | المصدر : صحيح مسلم
 الصفحة أو الرقم: 250 | خلاصة حكم المحدث : [صحيح]
 التخريج : أخرجه مسلم (250)
 
-<br></br><br></br>
+
+
+<br>
+<br/>
+<div class="custom-br"></div>
+
+
  وبَنُو فرُّوخَ: هُمُ العَجَمُ، وقيلَ: إنَّ فرُّوخَ من وَلدِ إبراهيمَ عليه السَّلامُ، وهُو أخو إسماعيلَ وإسحاقَ، ومِن ولدِه العَجَمُ، ثُمَّ أخبَرَ أنَّه لو يَعلَمُ أنَّ أحدًا يَراه ما تَوضَّأ هذا الوُضوءَ.
  <br></br>
 وأرادَ أبو هُرَيرةَ بكَلامِه هذا أنَّه يَنبَغي لمَن يُقتدى به إذا تَرخَّصَ في أمرٍ أو تَشدَّدَ فيه مع نفسِه، أو لاعتقادِه في ذلك مَذهَبًا شَذَّ به عنِ النَّاسِ: ألَّا يَفعَلَه بحَضرةِ العامَّةِ؛ لئلَّا يَترخَّصوا برُخصتِه لغَيرِ ضَرورةٍ أو يَعتقِدُوا أنَّ ما تَشدَّدَ فيه هو الفرضُ.
@@ -178,4 +186,4 @@ import{i as x,b as p,c as h,_ as a,d as f,f as b,g as _,S as g,L as v,y as n,H a
 
 
     `}};d.styles=[C,A];d=P([z("kitab-al-tahara-bab-al-wodo-1")],d);export{d as AppAbout};
-//# sourceMappingURL=bab-al-wodo-1-40c1af74.js.map
+//# sourceMappingURL=bab-al-wodo-1-f5009369.js.map
