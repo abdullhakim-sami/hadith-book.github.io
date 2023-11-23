@@ -1,7 +1,16 @@
-import{s as p,x as v,a as c,e as i}from"./index-765334bc.js";var o=Object.defineProperty,d=Object.getOwnPropertyDescriptor,n=(l,e,a,s)=>{for(var r=s>1?void 0:s?d(e,a):e,t=l.length-1,h;t>=0;t--)(h=l[t])&&(r=(s?h(e,a,r):h(r))||r);return s&&r&&o(e,a,r),r};let b=class extends p{render(){return v`
+import{s as c,x as i,a as u,e as d}from"./index-5b03b6e7.js";import"./chunk.VGA5RVOH-310d8b0f.js";var p=Object.defineProperty,h=Object.getOwnPropertyDescriptor,o=(t,e,b,s)=>{for(var r=s>1?void 0:s?h(e,b):e,a=t.length-1,m;a>=0;a--)(m=t[a])&&(r=(s?m(e,b,r):m(r))||r);return s&&r&&p(e,b,r),r};let l=class extends c{render(){return i`
       <app-header ?enableBack="${!0}"></app-header>
 
 <main>
+      <sl-breadcrumb>
+          <sl-breadcrumb-item>
+            <sl-icon slot="prefix" name="house"></sl-icon>
+            الصفحة الرئيسية
+          </sl-breadcrumb-item>
+          <sl-breadcrumb-item>كتاب الصلاة</sl-breadcrumb-item>
+               <sl-breadcrumb-item> باب صلاة الفجر</sl-breadcrumb-item>
+                   <sl-breadcrumb-item>   مَن صلَّى الصُّبحَ في جماعةٍ فَهوَ في ذمَّةِ اللَّهِ</sl-breadcrumb-item>
+        </sl-breadcrumb>
 <h1 > باب صلاة الفجر</h1>
 
 <div class="custom-br"></div>
@@ -19,7 +28,7 @@ import{s as p,x as v,a as c,e as i}from"./index-765334bc.js";var o=Object.define
 
 
 <br></br>
-<h2>
+
  مَن صَلَّى الصُّبْحَ فَهو في ذِمَّةِ اللهِ، فلا يَطْلُبَنَّكُمُ اللَّهُ مِن ذِمَّتِهِ بشَيءٍ، فيُدْرِكَهُ، فَيَكُبَّهُ في نَارِ جَهَنَّمَ.
 
  <h3>
@@ -42,5 +51,5 @@ import{s as p,x as v,a as c,e as i}from"./index-765334bc.js";var o=Object.define
 
 
 
-    `}};b.styles=[c];b=n([i("bab-salat-al-fajr-1")],b);export{b as AppAbout};
-//# sourceMappingURL=bab-salat-al-fajr-1-b8cd2f14.js.map
+    `}};l.styles=[u];l=o([d("bab-salat-al-fajr-1")],l);export{l as AppAbout};
+//# sourceMappingURL=bab-salat-al-fajr-1-8cede177.js.map
