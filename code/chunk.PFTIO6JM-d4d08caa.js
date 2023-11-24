@@ -1,4 +1,4 @@
-import{b,c as m,_ as t,d as u,f as i,g as d,S as p,L as f,y as l,H as h,o as _,n as c}from"./index-5b03b6e7.js";var g=b`
+import{i as b,c as m,S as p,b as t,e as d,n as i,f as u,L as f,x as l,H as h,j as _,o as c}from"./index-f1bcbf46.js";var g=b`
   ${m}
 
   .breadcrumb {
@@ -6,15 +6,17 @@ import{b,c as m,_ as t,d as u,f as i,g as d,S as p,L as f,y as l,H as h,o as _,n
     align-items: center;
     flex-wrap: wrap;
   }
-`,r=class extends p{constructor(){super(...arguments),this.localize=new f(this),this.separatorDir=this.localize.dir(),this.label=""}getSeparator(){const e=this.separatorSlot.assignedElements({flatten:!0})[0].cloneNode(!0);return[e,...e.querySelectorAll("[id]")].forEach(o=>o.removeAttribute("id")),e.setAttribute("data-default",""),e.slot="separator",e}handleSlotChange(){const s=[...this.defaultSlot.assignedElements({flatten:!0})].filter(e=>e.tagName.toLowerCase()==="sl-breadcrumb-item");s.forEach((e,o)=>{const n=e.querySelector('[slot="separator"]');n===null?e.append(this.getSeparator()):n.hasAttribute("data-default")&&n.replaceWith(this.getSeparator()),o===s.length-1?e.setAttribute("aria-current","page"):e.removeAttribute("aria-current")})}render(){return this.separatorDir!==this.localize.dir()&&(this.separatorDir=this.localize.dir(),this.updateComplete.then(()=>this.handleSlotChange())),l`
+`,r=class extends u{constructor(){super(...arguments),this.localize=new f(this),this.separatorDir=this.localize.dir(),this.label=""}getSeparator(){const e=this.separatorSlot.assignedElements({flatten:!0})[0].cloneNode(!0);return[e,...e.querySelectorAll("[id]")].forEach(o=>o.removeAttribute("id")),e.setAttribute("data-default",""),e.slot="separator",e}handleSlotChange(){const a=[...this.defaultSlot.assignedElements({flatten:!0})].filter(e=>e.tagName.toLowerCase()==="sl-breadcrumb-item");a.forEach((e,o)=>{const n=e.querySelector('[slot="separator"]');n===null?e.append(this.getSeparator()):n.hasAttribute("data-default")&&n.replaceWith(this.getSeparator()),o===a.length-1?e.setAttribute("aria-current","page"):e.removeAttribute("aria-current")})}render(){return this.separatorDir!==this.localize.dir()&&(this.separatorDir=this.localize.dir(),this.updateComplete.then(()=>this.handleSlotChange())),l`
       <nav part="base" class="breadcrumb" aria-label=${this.label}>
         <slot @slotchange=${this.handleSlotChange}></slot>
       </nav>
 
-      <slot name="separator" hidden aria-hidden="true">
-        <sl-icon name=${this.localize.dir()==="rtl"?"chevron-left":"chevron-right"} library="system"></sl-icon>
-      </slot>
-    `}};r.styles=g;t([u("slot")],r.prototype,"defaultSlot",2);t([u('slot[name="separator"]')],r.prototype,"separatorSlot",2);t([i()],r.prototype,"label",2);r=t([d("sl-breadcrumb")],r);var y=b`
+      <span hidden aria-hidden="true">
+        <slot name="separator">
+          <sl-icon name=${this.localize.dir()==="rtl"?"chevron-left":"chevron-right"} library="system"></sl-icon>
+        </slot>
+      </span>
+    `}};r.styles=g;r.dependencies={"sl-icon":p};t([d("slot")],r.prototype,"defaultSlot",2);t([d('slot[name="separator"]')],r.prototype,"separatorSlot",2);t([i()],r.prototype,"label",2);r.define("sl-breadcrumb");var y=b`
   ${m}
 
   :host {
@@ -97,15 +99,18 @@ import{b,c as m,_ as t,d as u,f as i,g as d,S as p,L as f,y as l,H as h,o as _,n
     align-items: center;
     margin: 0 var(--sl-spacing-x-small);
     user-select: none;
+    -webkit-user-select: none;
   }
-`,a=class extends p{constructor(){super(...arguments),this.hasSlotController=new h(this,"prefix","suffix"),this.rel="noreferrer noopener"}render(){const s=!!this.href;return l`
+`,s=class extends u{constructor(){super(...arguments),this.hasSlotController=new h(this,"prefix","suffix"),this.rel="noreferrer noopener"}render(){const a=!!this.href;return l`
       <div
         part="base"
         class=${_({"breadcrumb-item":!0,"breadcrumb-item--has-prefix":this.hasSlotController.test("prefix"),"breadcrumb-item--has-suffix":this.hasSlotController.test("suffix")})}
       >
-        <slot name="prefix" part="prefix" class="breadcrumb-item__prefix"></slot>
+        <span part="prefix" class="breadcrumb-item__prefix">
+          <slot name="prefix"></slot>
+        </span>
 
-        ${s?l`
+        ${a?l`
               <a
                 part="label"
                 class="breadcrumb-item__label breadcrumb-item__label--link"
@@ -121,9 +126,13 @@ import{b,c as m,_ as t,d as u,f as i,g as d,S as p,L as f,y as l,H as h,o as _,n
               </button>
             `}
 
-        <slot name="suffix" part="suffix" class="breadcrumb-item__suffix"></slot>
+        <span part="suffix" class="breadcrumb-item__suffix">
+          <slot name="suffix"></slot>
+        </span>
 
-        <slot name="separator" part="separator" class="breadcrumb-item__separator" aria-hidden="true"></slot>
+        <span part="separator" class="breadcrumb-item__separator" aria-hidden="true">
+          <slot name="separator"></slot>
+        </span>
       </div>
-    `}};a.styles=y;t([i()],a.prototype,"href",2);t([i()],a.prototype,"target",2);t([i()],a.prototype,"rel",2);a=t([d("sl-breadcrumb-item")],a);
-//# sourceMappingURL=chunk.VGA5RVOH-310d8b0f.js.map
+    `}};s.styles=y;t([i()],s.prototype,"href",2);t([i()],s.prototype,"target",2);t([i()],s.prototype,"rel",2);s.define("sl-breadcrumb-item");
+//# sourceMappingURL=chunk.PFTIO6JM-d4d08caa.js.map

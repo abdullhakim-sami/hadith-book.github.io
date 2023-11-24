@@ -1,4 +1,4 @@
-import{s as i,x as c,a as d,e as u}from"./index-5b03b6e7.js";import"./chunk.KRP3ULQL-dd427a04.js";import"./chunk.VGA5RVOH-310d8b0f.js";var o=Object.defineProperty,p=Object.getOwnPropertyDescriptor,v=(l,e,s,b)=>{for(var r=b>1?void 0:b?p(e,s):e,a=l.length-1,m;a>=0;a--)(m=l[a])&&(r=(b?m(e,s,r):m(r))||r);return b&&r&&o(e,s,r),r};let t=class extends i{render(){return c`
+import{S as c,s as d,x as o,r as l,a as u,t as p}from"./index-f1bcbf46.js";import"./chunk.AXGIBORK-17365f98.js";import"./chunk.PFTIO6JM-d4d08caa.js";c.define("sl-icon");var h=Object.defineProperty,v=Object.getOwnPropertyDescriptor,n=(i,e,b,a)=>{for(var r=a>1?void 0:a?v(e,b):e,s=i.length-1,t;s>=0;s--)(t=i[s])&&(r=(a?t(e,b,r):t(r))||r);return a&&r&&h(e,b,r),r};let m=class extends d{render(){return o`
       <app-header ?enableBack="${!0}">
 
 
@@ -6,12 +6,13 @@ import{s as i,x as c,a as d,e as u}from"./index-5b03b6e7.js";import"./chunk.KRP3
 
 <main>
 <sl-breadcrumb>
-<sl-breadcrumb-item>
-  <sl-icon slot="prefix" name="house"></sl-icon>
-  الصفحة الرئيسية
-</sl-breadcrumb-item>
-<sl-breadcrumb-item>كتاب الطهارة</sl-breadcrumb-item>
-<sl-breadcrumb-item>باب الوضوء</sl-breadcrumb-item>
+   <sl-breadcrumb-item href="${l()}"
+            >الصفحة الرئيسية</sl-breadcrumb-item
+          >
+  <sl-breadcrumb-item href="${l("kitab-al-tahara")}"
+            >كتاب الطهارة</sl-breadcrumb-item
+          >
+<sl-breadcrumb-item       href="${l("kitab-al-tahara/bab-al-wodo")}">باب الوضوء</sl-breadcrumb-item>
 
 <sl-breadcrumb-item> تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ   </sl-breadcrumb-item>
 
@@ -48,5 +49,5 @@ import{s as i,x as c,a as d,e as u}from"./index-5b03b6e7.js";import"./chunk.KRP3
 
 
 
-    `}};t.styles=[d];t=v([u("kitab-al-tahara-bab-al-wodo-1")],t);export{t as AppAbout};
-//# sourceMappingURL=bab-al-wodo-1-a4679092.js.map
+    `}};m.styles=[u];m=n([p("kitab-al-tahara-bab-al-wodo-1")],m);export{m as AppAbout};
+//# sourceMappingURL=bab-al-wodo-1-13422c98.js.map
